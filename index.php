@@ -2,10 +2,10 @@
 
 $db = new SQLite3('mydata.db');
 
-// $results = $db->query("
-//     SELECT *
-//     FROM options
-// ");
+$results = $db->query("
+    SELECT *
+    FROM options
+");
 
 // $results = $db->query("
 //     SELECT option_value
